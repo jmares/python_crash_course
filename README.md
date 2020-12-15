@@ -14,7 +14,34 @@ This repo contains the exercises and examples of the book.
 
 December 14, 2020
 
+Nothing new here for me, but used the example to famaliarize myself with Geany.
+
 ### Chapter 02: Variables and Simple Data Types
+
+December 15, 2020
+
+I already knew most of it, except the use of underscores in long numbers and multiple assignment.
+
+```python
+# use of underscores in long numbers
+long_number = 14_000_000_000
+print(long_number)
+*14000000000*
+
+# multiple assignment
+x, y, z = 1, 2, 3
+
+# convention for constants (python doens't have build in constant types)
+MAX_CONNECTIONS = 5000
+```
+
+To find the **Zen of Python**
+
+```python
+import this
+```
+
+Only used the REPL for some of the examples.
 
 ### Chapter 03: Introducing Lists
 
