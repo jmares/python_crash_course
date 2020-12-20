@@ -45,6 +45,35 @@ Only used the REPL for some of the examples.
 
 ### Chapter 03: Introducing Lists
 
+December 20, 2020
+
+Only used the REPL for some exercises.
+
+How to get the last element of a list without knowing its length?
+
+```python
+last_item = my_list[-1]
+```
+
+Adding an item to the end of a list with `.append()`.
+
+Inserting an item into a list with `.insert(position)`.
+
+Removing an item from a list without returning its value with `del mylist(position)`.
+
+Removing an item from a list and returning its value with `mylist.pop(position)`.
+
+Removing an item by value with `mylist.remove('value')`.
+
+Sorting a list permanently with `mylist.sort()` or `mylist.sort(reverse=True)`.
+
+Sorting a list temporarily with `sorted(mylist)` or `sorted(mylist, reverse=True)`.
+
+Reversing the order of a list with `mylist.reverse()`.
+
+Finding the length of a list with `len(mylist)`.
+
+
 ### Chapter 04: Working with Lists
 
 ### Chapter 05: if Statements
