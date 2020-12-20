@@ -76,6 +76,32 @@ Finding the length of a list with `len(mylist)`.
 
 ### Chapter 04: Working with Lists
 
+December 20, 2020
+
+Only used the REPL for some exercises.
+
+```python
+numbers = list(range(2, 12, 2))
+print(numbers)
+# [2, 4, 6, 8, 10]
+```
+
+List comprehension
+
+```python
+squares = [value**2 for value in range(1, 11)]
+print(squares)
+# [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+```
+
+Tuple = immutable list.
+
+```python
+my_list = [1, 2, 3, 4, 5]
+my_tuple = [1, 2, 3, 4, 5]
+```
+
+
 ### Chapter 05: if Statements
 
 ### Chapter 06: Dictionaries
