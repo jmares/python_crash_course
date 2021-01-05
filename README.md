@@ -104,9 +104,28 @@ my_tuple = [1, 2, 3, 4, 5]
 
 ### Chapter 05: if Statements
 
-January, 04 2021
+January 04, 2021
 
 ### Chapter 06: Dictionaries
+
+January 05, 2021
+
+Must of this stuff is beginner's stuff, which I already know. But I have found two usefull bits of information:
+
+First: 
+
+"As of Python 3.7, dictionaries retain the order in which they were defined."
+
+Second:
+
+Suppose you have a dictionary with names (*keys*) of people and their favorite programming language (*values*). 
+You want to display a list of the unique programming languages: get a list with the values of the dictionary using the `values()` method and use the `set()` function to return a collection with unique items.
+
+```python
+for language in set(favorite_languages.values()):
+    print(language)
+```
+
 
 ### Chapter 07: User Input and while Loops
 
