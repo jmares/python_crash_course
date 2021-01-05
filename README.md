@@ -104,6 +104,8 @@ my_tuple = [1, 2, 3, 4, 5]
 
 ### Chapter 05: if Statements
 
+January, 04 2021
+
 ### Chapter 06: Dictionaries
 
 ### Chapter 07: User Input and while Loops
