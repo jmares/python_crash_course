@@ -129,6 +129,12 @@ for language in set(favorite_languages.values()):
 
 ### Chapter 07: User Input and while Loops
 
+January 6, 2021
+
+Whenever I needed input from a user, I always used a short, clear, easy-to-understand prompt. It never occured to me that I could use a multi-line string.
+
+
+
 ### Chapter 08: Functions
 
 ### Chapter 09: Classes
