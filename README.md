@@ -134,8 +134,92 @@ January 6, 2021
 Whenever I needed input from a user, I always used a short, clear, easy-to-understand prompt. It never occured to me that I could use a multi-line string.
 
 
-
 ### Chapter 08: Functions
+
+January 7, 2021
+
+Paramaters and username: `username` is the parameter and `'Jessie'` is the argument.
+
+```python
+def greet_user(username):
+    #some code
+
+greet_user('Jessie')
+```
+
+Positional arguments, default values and keyword arguments:
+
+```python
+def describe_pet(pet_name, animal_type = 'dog'):
+    #some code
+
+describe_pet('Willie')
+describe_pet('Harry', 'hamster')
+describe(animal_type='cat', pet_name='Tiger')
+```
+
+When you pass a list to a function and modify the list inside the function, the original list gets modified.
+When you don't want that, you have to pass a copy of the list to the function.
+
+```python
+def mod_list(lst):
+    #some code
+
+a = ['a', 'b', 'c', 'd', 'e']
+mod_list(a[:])
+```
+
+An arbitrary number of arguments
+
+```python
+def make_pizza(size='large', *toppings):
+    #some code
+    # toppings is a list
+    #some code
+
+make_pizza('small', 'mushrooms', 'green pepers', 'extra cheese')
+```
+
+An arbitrary number of keyword arguments
+
+```python
+def build_profile(first, last, **user_info):
+    #some code
+    # user_info is a dictionary
+    #some code
+
+build_profile('John', 'Doe', location='New York', profession='waiter', age=42)
+```
+
+Putting functions in a separate file (*module*) and import them
+
+```python
+import module_name # without the .py, import everything
+
+module_name.function_name()
+
+from module_name import function_0, function_1, function_2 # import only specific functions
+
+function_0()
+
+from module_name import function_name as funa # import specific function and give it an alias
+
+funa()
+
+import module_name as mn # import everything, give module an alias
+
+mn.function_name()
+
+from module_name import * # import every function
+```
+
+- Function names in python: descriptive, use lowercase letters and underscores.
+- Dito for modules.
+- Default value: no spaces on either side of the equal sign.
+- Dito for keyword arguments
+- Separate functions by two empty lines
+- All import statements should be at the beginning of a file
+- Document function using docstring format `""" comment """`
 
 ### Chapter 09: Classes
 
