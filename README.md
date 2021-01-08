@@ -223,6 +223,8 @@ from module_name import * # import every function
 
 ### Chapter 09: Classes
 
+January 8, 2021
+
 ### Chapter 10: Files and Exceptions
 
 ### Chapter 11: Testing Your Code
