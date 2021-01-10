@@ -227,4 +227,21 @@ January 8, 2021
 
 ### Chapter 10: Files and Exceptions
 
+January 10, 2021
+
+Had not encountered an `else` block in a `try-except` before.
+
+```python
+try:
+    # code that can cause an error belongs here
+except:
+    # what to do when an exception occurs
+else:
+    # do this when no exception occured
+````
+
+The `pass` statement: do nothing.
+
+Refactoring makes code cleaner, easier to understand, and easier to extend.
+Improving code by breaking it up into a series of functions that have specific jobs, is called *refactoring*.
 ### Chapter 11: Testing Your Code
