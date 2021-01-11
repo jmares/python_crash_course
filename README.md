@@ -238,10 +238,16 @@ except:
     # what to do when an exception occurs
 else:
     # do this when no exception occured
-````
+```
 
 The `pass` statement: do nothing.
 
 Refactoring makes code cleaner, easier to understand, and easier to extend.
 Improving code by breaking it up into a series of functions that have specific jobs, is called *refactoring*.
+
 ### Chapter 11: Testing Your Code
+
+January 11, 2021
+
+Which book is best to start studying python? This one or "*Python for Everybody*" by Charles Severance?   
+Difficult choice, but the inclusion of unittesting in this book is a bonus.
