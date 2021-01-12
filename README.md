@@ -251,3 +251,14 @@ January 11, 2021
 
 Which book is best to start studying python? This one or "*Python for Everybody*" by Charles Severance?   
 Difficult choice, but the inclusion of unittesting in this book is a bonus.
+
+## PART II: Projects
+
+## Project 1: Alien Invasion
+
+### Chapter 12: A Ship that Fires Bullets
+
+January 12, 2021
+
+
+
