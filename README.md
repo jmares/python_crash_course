@@ -260,5 +260,14 @@ Difficult choice, but the inclusion of unittesting in this book is a bonus.
 
 January 12, 2021
 
+### Chapter 13: Aliens!
+
+January 14, 2021
+
+I am not interested in developing games and intended to go through these chapters quickly.
+
+The way you program this game and use the library forces me think about programming in a different way.
+I am going to focus on working with, but I will revisit this in the future.
+
 
 
