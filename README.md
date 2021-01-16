@@ -269,5 +269,17 @@ I am not interested in developing games and intended to go through these chapter
 The way you program this game and use the library forces me think about programming in a different way.
 I am going to focus on working with, but I will revisit this in the future.
 
+### Chapter 14: Scoring
+
+January 15, 2021
+
+## Project 2: Data Visualization
+
+### Chapter 15: Generating Data
+
+### Chapter 16: Downloading Data
+
+### Chapter 17: Working with APIs
+
 
 

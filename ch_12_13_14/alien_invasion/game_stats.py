@@ -5,8 +5,8 @@ class GameStats:
         self.settings = ai_game.settings
         self.reset_stats()
 
-        # Start Aien Invasion in an active state
-        self.game_active = True
+        # Start Aien Invasion in an inactive state
+        self.game_active = False
 
     def reset_stats(self):
         self.ships_left = self.settings.ship_limit
