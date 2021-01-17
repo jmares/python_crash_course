@@ -258,11 +258,11 @@ Difficult choice, but the inclusion of unittesting in this book is a bonus.
 
 ### Chapter 12: A Ship that Fires Bullets
 
-January 12, 2021
+January 12 - 13, 2021
 
 ### Chapter 13: Aliens!
 
-January 14, 2021
+January 14 - 15, 2021
 
 I am not interested in developing games and intended to go through these chapters quickly.
 
@@ -271,7 +271,7 @@ I am going to focus on working with, but I will revisit this in the future.
 
 ### Chapter 14: Scoring
 
-January 15, 2021
+January 16 - 17, 2021
 
 ## Project 2: Data Visualization
 
