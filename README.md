@@ -277,6 +277,8 @@ January 16 - 17, 2021
 
 ### Chapter 15: Generating Data
 
+January 18, 2021
+
 ### Chapter 16: Downloading Data
 
 ### Chapter 17: Working with APIs
