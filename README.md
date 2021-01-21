@@ -281,6 +281,8 @@ January 18 - 20, 2021
 
 ### Chapter 16: Downloading Data
 
+January 21 - 22, 2021
+
 ### Chapter 17: Working with APIs
 
 
