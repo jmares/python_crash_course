@@ -285,5 +285,9 @@ January 21 - 22, 2021
 
 ### Chapter 17: Working with APIs
 
+January 23 - 24, 2021
+
+
+
 
 
