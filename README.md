@@ -287,7 +287,43 @@ January 21 - 22, 2021
 
 January 23 - 24, 2021
 
+I encountered only a couple of bugs in this book so far, but haven't documented them.
 
+One encountered in this chapter was with the Hacker News code: it didn't take into account that a keyword could be missing, eg. an article without comments has no 'descendants.
 
+Code in the book for `hn_submissions.py`:
 
+```python
+submission_dict = {
+    'title': response_dict['title'],
+    'hn_link': f"http://news.ycombinator.com/item?id={ submission_id }",
+    'comments': response_dict['descendants'],
+}
+```
 
+which resulted in the following error:
+
+```bash
+Traceback (most recent call last):
+  File ".\hn_submissions.py", line 25, in <module>
+    'comments': response_dict['descendants'],
+KeyError: 'descendants'
+```
+
+Solution:
+
+```python
+submission_dict = {
+    'title': response_dict['title'],
+    'hn_link': f"http://news.ycombinator.com/item?id={ submission_id }",
+    'comments': response_dict.get('descendants', 0),
+}
+```
+
+## Project 3: Web Applications
+
+### Chapter 18: Getting Started with Django
+
+### Chapter 19: User Accounts
+
+### Chapter 20: Styling and Deploying an App
