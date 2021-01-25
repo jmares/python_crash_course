@@ -324,6 +324,8 @@ submission_dict = {
 
 ### Chapter 18: Getting Started with Django
 
+January 25, 2021
+
 ### Chapter 19: User Accounts
 
 ### Chapter 20: Styling and Deploying an App
