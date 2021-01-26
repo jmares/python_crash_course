@@ -324,7 +324,7 @@ submission_dict = {
 
 ### Chapter 18: Getting Started with Django
 
-January 25, 2021
+January 25 - 26, 2021
 
 ### Chapter 19: User Accounts
 
