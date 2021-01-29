@@ -326,6 +326,12 @@ submission_dict = {
 
 January 25 - 26, 2021
 
+All code in folder `learning_log`
+
 ### Chapter 19: User Accounts
+
+January 28 - 29, 2021
+
+All code in folder `learning_log`
 
 ### Chapter 20: Styling and Deploying an App
