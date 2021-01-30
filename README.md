@@ -335,3 +335,8 @@ January 28 - 29, 2021
 All code in folder `learning_log`
 
 ### Chapter 20: Styling and Deploying an App
+
+January 30 - 31, 2021
+
+All code in folder `learning_log`
+
