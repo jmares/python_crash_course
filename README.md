@@ -340,3 +340,23 @@ January 30 - 31, 2021
 
 All code in folder `learning_log`
 
+When setting DEBUG based on environment variables, I got an error when pushing the code to heroku: 
+
+```bash
+ NameError: name 'os' is not defined
+```
+
+In the code sample `os` was not imported. Correct code:
+
+```python
+# Heroku settings
+import django_heroku, os
+django_heroku.settings(locals())
+
+if os.environ.get('DEBUG') == 'TRUE':
+    DEBUG = True
+elif os.environ.get('DEBUG') == 'FALSE':
+    Debug = False
+```
+
+Didn't get the custom error pages to work. Don't know whether it is caused by a typo, an error in the code, ...
