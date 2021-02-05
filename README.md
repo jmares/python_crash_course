@@ -359,4 +359,4 @@ elif os.environ.get('DEBUG') == 'FALSE':
     Debug = False
 ```
 
-Didn't get the custom error pages to work. Don't know whether it is caused by a typo, an error in the code, ...
+Didn't get the custom error pages to work. Don't know whether it is caused by a typo of mine, an error in the code, ..., but as I have no immediate plans to use Django I left it at that.
