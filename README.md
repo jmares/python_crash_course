@@ -1,7 +1,7 @@
 # Python Crash Course (2nd Ed)
 
 A Hands-On, Project-Based Introduction to Programming by Eric Matthes   
-Published by **no starch press** on May 2019, 544 pp.   
+Published by **No Starch Press** on May 2019, 544 pp.   
 ISBN-13: 9781593279288
 
 Started reading/studying this book on December 14, 2020.
@@ -14,7 +14,7 @@ This repo contains the exercises and examples of the book.
 
 December 14, 2020
 
-Nothing new here for me, but used the example to famaliarize myself with Geany.
+Nothing new here for me, but used the example to familiarize myself with Geany.
 
 ### Chapter 02: Variables and Simple Data Types
 
